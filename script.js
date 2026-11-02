@@ -22,3 +22,7 @@ function playGame(playerHand) {
 
   resultMsg.textContent = result;
 }
+
+rockBtn.addEventListener("click", () => playGame("rock"));
+paperBtn.addEventListener("click", () => playGame("paper"));
+scissorsBtn.addEventListener("click", () => playGame("scissors"));
